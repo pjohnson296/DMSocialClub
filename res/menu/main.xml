@@ -2,10 +2,27 @@
     xmlns:tools="http://schemas.android.com/tools"
     tools:context="com.example.dmsocialclub.MainActivity" >
 
+    
     <item
-        android:id="@+id/action_settings"
-        android:orderInCategory="100"
-        android:showAsAction="never"
-        android:title="@string/action_settings"/>
+        android:id="@+id/action_today"
+        android:title="@string/action_today"
+        android:showAsAction="never"/>
+    <item
+        android:id="@+id/action_month"
+        android:title="@string/action_month"
+        android:showAsAction="never"/>
+    <item
+        android:id="@+id/action_categories"
+        android:title="@string/action_categories"
+        android:showAsAction="never"/>
+    <item
+        android:id="@+id/action_about"
+        android:title="@string/action_about"
+        android:showAsAction="never"/>
+<!--     <item -->
+<!--         android:id="@+id/action_settings" -->
+<!--         android:orderInCategory="100" -->
+<!--         android:showAsAction="never" -->
+<!--         android:title="@string/action_settings"/> -->
 
 </menu>

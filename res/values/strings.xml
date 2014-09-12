@@ -4,5 +4,10 @@
     <string name="app_name">DMSocialClub</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="action_today">Today</string>
+    <string name="action_month">This Month</string>
+    <string name="action_categories">Categories</string>
+    <string name="action_about">About DSM Social</string>
 
+    
 </resources>
