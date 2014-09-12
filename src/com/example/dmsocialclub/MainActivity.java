@@ -8,7 +8,7 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 
-
+//sliding tabs will be implemented soon!
 public class MainActivity extends Activity {
 
     @Override
