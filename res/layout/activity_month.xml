@@ -6,19 +6,19 @@
     <CalendarView
         android:id="@+id/calendarView1"
         android:layout_width="248dp"
-        android:layout_height="194dp"
+        android:layout_height="300dp"
         android:layout_alignParentLeft="true"
         android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
         android:maxDate="12/31/2014"
-        android:minDate="12/31/2013"
-        android:layout_alignParentTop="true" />
+        android:minDate="01/01/2014" />
 
     <FrameLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/calendarView1"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="106dp" >
+        android:layout_marginTop="10dp" >
 
         <ScrollView
             android:id="@+id/scrollView2"
