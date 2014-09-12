@@ -1,3 +1,6 @@
+//Social club app
+//Authors: Paxten Johnson, Joe Snee, Alex Peterson
+
 package com.example.dmsocialclub;
 
 import android.app.Activity;
