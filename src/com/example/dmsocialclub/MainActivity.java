@@ -37,6 +37,12 @@ public class MainActivity extends Activity {
 				.setTabListener(new TabListener<TodayFragment>(
 						this, "today", TodayFragment.class));
 		actionBar.addTab(tab);
+		
+		tab = actionBar.newTab()
+				.setText(R.string.action_week)
+				.setTabListener(new TabListener<WeekFragment>(
+						this, "this week", WeekFragment.class));
+		actionBar.addTab(tab);
 	}
 
 
