@@ -10,8 +10,8 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentTop="true"
-        android:maxDate="12/31/2014"
-        android:minDate="01/01/2014" />
+        android:maxDate="9/30/2014"
+        android:minDate="09/01/2014" />
 
     <FrameLayout
         android:layout_width="wrap_content"

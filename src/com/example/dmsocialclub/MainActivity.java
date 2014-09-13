@@ -57,6 +57,19 @@ public class MainActivity extends Activity {
 		Intent intent = new Intent(this, AboutActivity.class);
 		startActivity(intent);
 	}
+	
+	public void openToday() {
+		Intent intent = new Intent(this, TodayFragment.class);
+		startActivity(intent);
+	}
+	public void openMonth() {
+		Intent intent = new Intent(this, MonthFragment.class);
+		startActivity(intent);
+	}
+	public void openCategories() {
+		Intent intent = new Intent(this, CategoriesActivity.class);
+		startActivity(intent);
+	}
 
 	@Override
 	public boolean onOptionsItemSelected(MenuItem item) {
@@ -67,6 +80,15 @@ public class MainActivity extends Activity {
 		switch (id) {
 		case R.id.action_about:
 			openAboutUs();
+			return true;
+		case R.id.action_categories:
+			openCategories();
+			return true;
+		case R.id.action_month:
+			openMonth();
+			return true;
+		case R.id.action_today:
+			openToday();
 			return true;
 		default:
 		}
