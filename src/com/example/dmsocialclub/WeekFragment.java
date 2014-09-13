@@ -13,8 +13,7 @@ public class WeekFragment extends Fragment {
             Bundle savedInstanceState) {
  
         View rootView = inflater.inflate(R.layout.activity_week, container, false);
-         
+        
         return rootView;
     }
-
 }
