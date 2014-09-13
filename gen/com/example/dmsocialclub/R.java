@@ -40,14 +40,16 @@ public final class R {
         public static final int tweet_screen=0x7f02000f;
     }
     public static final class id {
-        public static final int action_about=0x7f08000c;
-        public static final int action_categories=0x7f08000b;
-        public static final int action_month=0x7f08000a;
-        public static final int action_settings=0x7f080008;
-        public static final int action_today=0x7f080009;
+        public static final int action_about=0x7f08000e;
+        public static final int action_categories=0x7f08000d;
+        public static final int action_month=0x7f08000c;
+        public static final int action_settings=0x7f08000a;
+        public static final int action_today=0x7f08000b;
+        public static final int aerial=0x7f080007;
+        public static final int aerialLayout=0x7f080006;
         public static final int calendarView1=0x7f080003;
-        public static final int circusJam=0x7f080007;
-        public static final int circusLayout=0x7f080006;
+        public static final int circusJam=0x7f080009;
+        public static final int circusLayout=0x7f080008;
         public static final int frameLayout1=0x7f080005;
         public static final int imageView1=0x7f080000;
         public static final int imageView2=0x7f080002;
@@ -60,7 +62,8 @@ public final class R {
         public static final int activity_main=0x7f030002;
         public static final int activity_month=0x7f030003;
         public static final int activity_week=0x7f030004;
-        public static final int sundaycircus=0x7f030005;
+        public static final int aerial=0x7f030005;
+        public static final int sundaycircus=0x7f030006;
     }
     public static final class menu {
         public static final int about=0x7f070000;

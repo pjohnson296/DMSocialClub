@@ -153,23 +153,47 @@ public class MainActivity extends Activity {
 	
 	public void loadCircus(View view) {
 		ImageView circus = (ImageView) findViewById(R.id.circusJam);
-		loadEvent(circus, 20, 20);
-	}
-	
-	public void loadEvent (ImageView imageView, int width, int height){
-		ImageView tempImageView = imageView;
+		ImageView tempImageView = circus;
 		AlertDialog.Builder imageDialog = new AlertDialog.Builder(this);
 		LayoutInflater inflater = (LayoutInflater) this.getSystemService(LAYOUT_INFLATER_SERVICE);
 		
 		View layout = inflater.inflate(R.layout.sundaycircus, (ViewGroup) findViewById(R.id.circusLayout));
 		ImageView image = (ImageView) layout.findViewById(R.id.circusJam);
-		image.setImageDrawable(tempImageView.getDrawable());
+		//image.setImageDrawable(tempImageView.getDrawable());
 		imageDialog.setView(layout);
 		
 		imageDialog.create();
 		imageDialog.show();
-		
 	}
+	public void loadAerial(View view) {
+		ImageView aerial = (ImageView) findViewById(R.id.aerial);
+		ImageView tempImageView = aerial;
+		AlertDialog.Builder imageDialog = new AlertDialog.Builder(this);
+		LayoutInflater inflater = (LayoutInflater) this.getSystemService(LAYOUT_INFLATER_SERVICE);
+		
+		View layout = inflater.inflate(R.layout.aerial, (ViewGroup) findViewById(R.id.aerialLayout));
+		ImageView image = (ImageView) layout.findViewById(R.id.aerial);
+		//image.setImageDrawable(tempImageView.getDrawable());
+		imageDialog.setView(layout);
+		
+		imageDialog.create();
+		imageDialog.show();
+	}
+//	
+//	public void loadEvent (ImageView imageView, int resource, int layout, int width, int height){
+//		ImageView tempImageView = imageView;
+//		AlertDialog.Builder imageDialog = new AlertDialog.Builder(this);
+//		LayoutInflater inflater = (LayoutInflater) this.getSystemService(LAYOUT_INFLATER_SERVICE);
+//		
+//		View layout = inflater.inflate(R.layout.sundaycircus, (ViewGroup) findViewById(R.id.circusLayout));
+//		ImageView image = (ImageView) layout.findViewById(R.id.circusJam);
+//		//image.setImageDrawable(tempImageView.getDrawable());
+//		imageDialog.setView(layout);
+//		
+//		imageDialog.create();
+//		imageDialog.show();
+//		
+//	}
 	
 	
 	
