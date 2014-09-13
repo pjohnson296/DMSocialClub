@@ -5,7 +5,7 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
-import android.widget.ImageView;
+import android.widget.ImageButton;
 
 public class CategoriesActivity extends Activity {
 
@@ -35,8 +35,8 @@ public class CategoriesActivity extends Activity {
 	}
 	
 	public void changeButtonImage (View view) {
-		ImageView imgView = (ImageView) findViewById(R.id.imageView1);
+		ImageButton imgBut = (ImageButton) findViewById(R.id.imageView1);
 		
-		imgView.setImageResource(R.drawable.dance_category);
+		imgBut.setImageResource(R.drawable.dance_category);
 	}
 }

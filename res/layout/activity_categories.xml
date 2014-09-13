@@ -2,13 +2,33 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent" >
 
-    <ImageView
-        android:id="@+id/imageView1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:src="@drawable/categories"
-        android:onClick="changeButtonImage" />
+        android:layout_marginLeft="27dp"
+        android:layout_marginTop="26dp" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+            
+                <ImageButton
+        			android:id="@+id/imageView1"
+        			android:layout_width="wrap_content"
+        			android:layout_height="wrap_content"
+        			android:layout_alignParentLeft="true"
+        			android:layout_alignParentTop="true"
+        			android:src="@drawable/categories"
+        			android:onClick="changeButtonImage" />
+            
+            
+        </LinearLayout>
+    </ScrollView>
 
 </RelativeLayout>

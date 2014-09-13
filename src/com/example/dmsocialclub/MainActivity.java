@@ -12,6 +12,8 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.ImageButton;
 
 //sliding tabs will be implemented soon!
 public class MainActivity extends Activity {
@@ -138,5 +140,10 @@ public class MainActivity extends Activity {
 		public void onTabReselected(Tab tab, FragmentTransaction ft) {
 			// User selected the already selected tab. Usually do nothing.
 		}
+	}
+	public void changeToDanceImage (View view) {
+		ImageButton imgBut = (ImageButton) findViewById(R.id.imageView1);
+		
+		imgBut.setImageResource(R.drawable.dance_category);
 	}
 }
