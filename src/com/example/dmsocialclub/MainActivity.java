@@ -6,14 +6,18 @@ package com.example.dmsocialclub;
 import android.app.ActionBar;
 import android.app.ActionBar.Tab;
 import android.app.Activity;
+import android.app.AlertDialog;
 import android.app.Fragment;
 import android.app.FragmentTransaction;
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.view.ViewGroup;
 import android.widget.ImageButton;
+import android.widget.ImageView;
 
 //sliding tabs will be implemented soon!
 public class MainActivity extends Activity {
@@ -146,4 +150,31 @@ public class MainActivity extends Activity {
 		
 		imgBut.setImageResource(R.drawable.dance_category);
 	}
+	
+	public void loadCircus(View view) {
+		ImageView circus = (ImageView) findViewById(R.id.circusJam);
+		loadEvent(circus, 20, 20);
+	}
+	
+	public void loadEvent (ImageView imageView, int width, int height){
+		ImageView tempImageView = imageView;
+		AlertDialog.Builder imageDialog = new AlertDialog.Builder(this);
+		LayoutInflater inflater = (LayoutInflater) this.getSystemService(LAYOUT_INFLATER_SERVICE);
+		
+		View layout = inflater.inflate(R.layout.sundaycircus, (ViewGroup) findViewById(R.id.circusLayout));
+		ImageView image = (ImageView) layout.findViewById(R.id.circusJam);
+		image.setImageDrawable(tempImageView.getDrawable());
+		imageDialog.setView(layout);
+		
+		imageDialog.create();
+		imageDialog.show();
+		
+	}
+	
+	
+	
+	
+	
+	
+	
 }
