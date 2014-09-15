@@ -89,12 +89,12 @@ public class MainActivity extends Activity {
 		case R.id.action_categories:
 			openCategories();
 			return true;
-		case R.id.action_month:
-			openMonth();
-			return true;
-		case R.id.action_today:
-			openToday();
-			return true;
+//		case R.id.action_month:
+//			openMonth();
+//			return true;
+//		case R.id.action_today:
+//			openToday();
+//			return true;
 		default:
 		}
 		//        if (id == R.id.action_settings) {

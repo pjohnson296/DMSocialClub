@@ -3,14 +3,14 @@
     tools:context="com.example.dmsocialclub.MainActivity" >
 
     
-    <item
+<!--     <item
         android:id="@+id/action_today"
         android:title="@string/action_today"
         android:showAsAction="never"/>
     <item
         android:id="@+id/action_month"
         android:title="@string/action_month"
-        android:showAsAction="never"/>
+        android:showAsAction="never"/> -->
     <item
         android:id="@+id/action_categories"
         android:title="@string/action_categories"
