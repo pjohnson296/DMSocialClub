@@ -6,7 +6,7 @@
     <string name="action_today">Today</string>
     <string name="action_week">This Week</string>
     <string name="action_month">This Month</string>
-    <string name="action_categories">Categories</string>
+    <string name="action_categories">Categories by Month</string>
     <string name="action_about">About DSM Social</string>
     <string name="title_activity_about">About DSM Social Club</string>
     <string name="title_activity_categories">CategoriesActivity</string>
