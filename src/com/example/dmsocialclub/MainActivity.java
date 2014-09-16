@@ -150,6 +150,12 @@ public class MainActivity extends Activity {
 		
 		imgBut.setImageResource(R.drawable.dance_category);
 	}
+	public void changeToTwitterImage (View view) {
+		ImageButton imgBut2 = (ImageButton) findViewById(R.id.aerial);
+		
+		imgBut2.setImageResource(R.drawable.tweet_screen);
+	}
+
 	
 	public void loadCircus(View view) {
 		ImageView circus = (ImageView) findViewById(R.id.circusJam);

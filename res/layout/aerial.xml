@@ -5,11 +5,12 @@
     android:id ="@+id/aerialLayout"
     android:background="@color/black">
     
-    <ImageView
+    <ImageButton
         android:id="@+id/aerial"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
         android:layout_alignParentLeft="true"
-        android:src="@drawable/all_aerial" />
+        android:src="@drawable/all_aerial"
+        android:onClick = "changeToTwitterImage" />
 
 </RelativeLayout>
