@@ -40,7 +40,9 @@ public final class R {
         public static final int this_week=0x7f02000c;
         public static final int tiny_crow_yoga=0x7f02000d;
         public static final int today=0x7f02000e;
-        public static final int tweet_screen=0x7f02000f;
+        public static final int today_bottom=0x7f02000f;
+        public static final int today_top=0x7f020010;
+        public static final int tweet_screen=0x7f020011;
     }
     public static final class id {
         public static final int action_about=0x7f09000c;
