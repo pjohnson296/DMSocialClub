@@ -3,6 +3,8 @@
 
 package com.example.dmsocialclub;
 
+import java.util.Calendar;
+
 import android.app.ActionBar;
 import android.app.ActionBar.Tab;
 import android.app.Activity;
@@ -10,7 +12,6 @@ import android.app.AlertDialog;
 import android.app.Fragment;
 import android.app.FragmentTransaction;
 import android.content.Intent;
-import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.Menu;
@@ -159,6 +160,21 @@ public class MainActivity extends Activity {
 	}
 	public void changeToTwitterImage (View view) {
 		view.setBackgroundResource(R.drawable.tweet_screen);
+		view.setOnClickListener(new View.OnClickListener() 
+        {
+            public void onClick(View v) 
+            {
+            	Calendar cal = Calendar.getInstance();              
+            	Intent intent = new Intent(Intent.ACTION_EDIT);
+            	intent.setType("vnd.android.cursor.item/event");
+            	intent.putExtra("beginTime", cal.getTimeInMillis());
+            	intent.putExtra("allDay", true);
+            	intent.putExtra("rrule", "FREQ=YEARLY");
+            	intent.putExtra("endTime", cal.getTimeInMillis()+60*60*1000);
+            	intent.putExtra("title", "All Aerial");
+            	startActivity(intent);
+            }
+        });
 	}
 
 	
