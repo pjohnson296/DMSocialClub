@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">DMSocialClub</string>
+    <string name="app_name">DMSC\nCalendar</string>
     <string name="action_settings">Settings</string>
     <string name="action_today">Today</string>
     <string name="action_week">This Week</string>

@@ -31,7 +31,7 @@ public class MainActivity extends Activity {
 		// setup action bar for tabs
 		ActionBar actionBar = getActionBar();
 		actionBar.setNavigationMode(ActionBar.NAVIGATION_MODE_TABS);
-		actionBar.setDisplayShowTitleEnabled(false);
+		actionBar.setDisplayShowTitleEnabled(true);
 
 		Tab tab = actionBar.newTab()
 				.setText(R.string.action_month)

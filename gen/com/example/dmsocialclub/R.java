@@ -33,16 +33,20 @@ public final class R {
         public static final int dance_category=0x7f020005;
         public static final int full_categories_for_calendar=0x7f020006;
         public static final int future_today=0x7f020007;
-        public static final int ic_launcher=0x7f020008;
-        public static final int register=0x7f020009;
-        public static final int show_me_more_events_like_this=0x7f02000a;
-        public static final int tell_my_friends=0x7f02000b;
-        public static final int this_week=0x7f02000c;
-        public static final int tiny_crow_yoga=0x7f02000d;
-        public static final int today=0x7f02000e;
-        public static final int today_bottom=0x7f02000f;
-        public static final int today_top=0x7f020010;
-        public static final int tweet_screen=0x7f020011;
+        public static final int ic_launcher_high=0x7f020008;
+        public static final int ic_launcher_medium=0x7f020009;
+        public static final int ic_launcher_small=0x7f02000a;
+        public static final int ic_launcher_xhigh=0x7f02000b;
+        public static final int ic_launcher_xxhigh=0x7f02000c;
+        public static final int register=0x7f02000d;
+        public static final int show_me_more_events_like_this=0x7f02000e;
+        public static final int tell_my_friends=0x7f02000f;
+        public static final int this_week=0x7f020010;
+        public static final int tiny_crow_yoga=0x7f020011;
+        public static final int today=0x7f020012;
+        public static final int today_bottom=0x7f020013;
+        public static final int today_top=0x7f020014;
+        public static final int tweet_screen=0x7f020015;
     }
     public static final class id {
         public static final int action_about=0x7f09000c;
