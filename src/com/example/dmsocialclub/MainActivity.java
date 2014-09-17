@@ -10,6 +10,7 @@ import android.app.AlertDialog;
 import android.app.Fragment;
 import android.app.FragmentTransaction;
 import android.content.Intent;
+import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.Menu;
@@ -73,6 +74,11 @@ public class MainActivity extends Activity {
 		startActivity(intent);
 	}
 	public void openCategories() {
+		Intent intent = new Intent(this, CategoriesActivity.class);
+		startActivity(intent);
+	}
+	
+	public void openCategories(View view) {
 		Intent intent = new Intent(this, CategoriesActivity.class);
 		startActivity(intent);
 	}
@@ -152,9 +158,7 @@ public class MainActivity extends Activity {
 		imgBut.setImageResource(R.drawable.dance_category);
 	}
 	public void changeToTwitterImage (View view) {
-		ImageButton imgBut2 = (ImageButton) findViewById(R.id.aerial);
-		
-		imgBut2.setImageResource(R.drawable.tweet_screen);
+		view.setBackgroundResource(R.drawable.tweet_screen);
 	}
 
 	

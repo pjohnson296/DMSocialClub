@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent" 
-    android:id ="@+id/aerialLayout"
-    android:background="@color/black">
-    
-    <ImageButton
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/aerialLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true" >
+
+    <ImageView
         android:id="@+id/aerial"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
         android:layout_alignParentLeft="true"
-        android:src="@drawable/all_aerial"
-        android:onClick = "changeToTwitterImage" />
+        android:background="@drawable/all_aerial"
+        android:clickable="true"
+        android:onClick="changeToTwitterImage" />
 
-</RelativeLayout>
+</FrameLayout>
