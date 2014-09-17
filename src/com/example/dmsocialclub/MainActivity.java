@@ -38,17 +38,18 @@ public class MainActivity extends Activity {
 						this, "this month", MonthFragment.class));
 		actionBar.addTab(tab);
 
-		tab = actionBar.newTab()
+		Tab tab1 = actionBar.newTab()
 				.setText(R.string.action_today)
 				.setTabListener(new TabListener<TodayFragment>(
 						this, "today", TodayFragment.class));
-		actionBar.addTab(tab);
+		actionBar.addTab(tab1);
 		
 		tab = actionBar.newTab()
 				.setText(R.string.action_week)
 				.setTabListener(new TabListener<WeekFragment>(
 						this, "this week", WeekFragment.class));
 		actionBar.addTab(tab);
+		actionBar.selectTab(tab1);
 	}
 
 	@Override
