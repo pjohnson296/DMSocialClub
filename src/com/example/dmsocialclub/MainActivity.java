@@ -164,13 +164,14 @@ public class MainActivity extends Activity {
         {
             public void onClick(View v) 
             {
+            	long beginTime = 1411055100000L;
+            	String description = "Want to learn how to fly through the air? This class is a great way to try out all things aerial. From the trapeze, to the aerial hoop and aerial fabric, there’s no better way to have fun, get fit, and improve your coordination. No experience is necessary, simply a curiosity for all things aerial. Classes are individualized to your needs and strengths.";
             	Calendar cal = Calendar.getInstance();              
             	Intent intent = new Intent(Intent.ACTION_EDIT);
             	intent.setType("vnd.android.cursor.item/event");
-            	intent.putExtra("beginTime", cal.getTimeInMillis());
-            	intent.putExtra("allDay", true);
-            	intent.putExtra("rrule", "FREQ=YEARLY");
-            	intent.putExtra("endTime", cal.getTimeInMillis()+60*60*1000);
+            	intent.putExtra("beginTime", beginTime);
+            	intent.putExtra("endTime", beginTime+90*60*1000);
+            	intent.putExtra("description", description);
             	intent.putExtra("title", "All Aerial");
             	startActivity(intent);
             }
